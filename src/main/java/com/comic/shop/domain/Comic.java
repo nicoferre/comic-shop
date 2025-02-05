@@ -13,6 +13,11 @@ import java.util.List;
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Comic {
+    private int id;
+    private String title;
+    private String isbn;
+    private String upc;
+    private String format;
     private Characters characters;
 
     @Data
